@@ -92,5 +92,60 @@ $$\kappa_w = 1 - \frac{\sum w_{ij} O_{ij}}{\sum w_{ij} E_{ij}}$$
 
 ---
 
+## 🧪 Phase 2: Core NLP Preprocessing Pipeline
+
+Once the Gold Standard corpus was consolidated, a specialized text normalization and lexical analysis pipeline was deployed. The main engineering challenge was stripping domain-specific noise while strictly preserving the underlying affective and emotional signals.
+
+### 2.1 Preprocessing Pipeline & Text Normalization
+* **The Process:** The raw textual data underwent a structured normalization workflow consisting of case folding (lowercasing), selective accent removal to preserve emotional emphasis, punctuation filtering, and custom tokenization.
+* **Objective:** This pipeline transforms noisy, unstructured review text into clean, modelable features, ensuring that the feature space reflects true semantic content without altering the original affective weight.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/bd97526a-72fa-4a3a-85e3-75ad114fa22c" width="100%" alt="NLP Normalization and Preprocessing Pipeline">
+</div>
+
+---
+
+### 2.2 Named Entity Masking (Critical Feature Engineering)
+* **The Overfitting Risk:** Since the model was trained on movie reviews, it faced a high risk of overfitting to domain-specific jargon, director names, actor names, and movie titles.
+* **The Solution:** A programmatic **Named Entity Masking** filter was designed. Cinema-specific entities and technical vocabulary were systematically replaced with neutral placeholder tags.
+* **Cross-Domain Adaptability:** This constraint forced the classification algorithms to learn abstract syntactic and emotional structures rather than thematic keywords. This domain independence is the architectural key that allows the model to successfully transfer its predictive power to raw social media texts later on.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/80479f98-49fd-4652-a15c-49fc575781c8" width="100%" alt="Named Entity Masking Strategy">
+</div>
+
+---
+
+### 2.3 Lexical Feature Check: Top 20 Words per Emotion
+* **Sanity Validation:** An exploratory frequency distribution analysis was conducted to isolate the top 20 most frequent terms for each target emotion.
+* **Outcome:** The dominant keywords inside each cluster showed total semantic coherence with their corresponding psychological states. This mathematically verified that the aggressive preprocessing and entity masking pipeline did not distort or weaken the underlying emotional signal.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4b1a2717-3ced-45b5-8940-af431de63064" width="100%" alt="Top 20 Emotional Keywords Distribution">
+</div>
+
+---
+
+### 2.4 Morphosyntactic Distribution Across Affective Spaces (POS-Tagging)
+* **Syntactic Footprints:** A Part-of-Speech (POS) tagging analysis revealed that different emotional states fundamentally alter the grammatical composition of a sentence.
+* **Key Discovery:** *Sadness* exhibits a highly static behavior, characterized by higher noun density and fewer action verbs. Conversely, *Curiosity* triggers a sharp increase in verbal structures, directly matching a high psychological arousal (activation). This proves that emotional states do not just dictate vocabulary, but actively shape syntax architecture.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/bb9609aa-077c-43c7-95e3-65c0f897d309" width="100%" alt="Grammatical POS Category Distribution per Emotion">
+</div>
+
+---
+
+### 2.5 Lexical Diversity and Vocabulary Richness Analysis
+* **Metrics:** The Type-Token Ratio (TTR) and lexical richness indices were computed for each emotional sub-corpus to evaluate the structural complexity of vocabulary usage.
+* **Arousal Correlation:** The analysis demonstrates a clear correlation between psychological activation and vocabulary expanse. High-arousal states like *Curiosity* or *Joy* yield a wider, more creative deployment of unique lemmas, whereas low-activation or highly restrictive states like *Sadness* exhibit linguistic repetition and a more concentrated, localized vocabulary footprint.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5fc73bde-8103-4b5b-951a-b1f1351afdc3" width="100%" alt="Lexical Diversity and Type-Token Ratio Matrix">
+</div>
+
+---
+
 
 ---
