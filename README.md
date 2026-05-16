@@ -3,7 +3,7 @@
 
   <h1>TRIP(U): Emotion-Based Personalized Travel Recommendation System</h1>
 
-  <p><i>"The variable is you, the journey is your destination"</i></p>
+  <p><i>**"The variable is you, the journey is your destination"**</i></p>
   
   <br>
 
