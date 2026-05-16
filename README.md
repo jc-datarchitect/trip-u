@@ -59,7 +59,7 @@ This phase establishes the foundational baseline of the project, migrating from 
 * **Mathematical Ordinality:** Although these represent discrete emotional states, they were intentionally modeled with mathematical ordinality ($0$ to $4$) within the pipeline. This geometric constraint allows the downstream loss functions and classification metrics to strictly penalize errors between distant emotional states (e.g., confusing *Sadness* with *Joy*) more severely than adjacent ones.
 
 <div align="center">
-  <img src="PASTE_IMAGE_1_2_URL_HERE" width="100%" alt="Russell Circumplex Model Mapping">
+  <img src="https://github.com/user-attachments/assets/99c36e38-252e-4caf-a958-cfeab31ce659" width="100%" alt="Russell Circumplex Model Mapping">
 </div>
 
 ---
@@ -71,7 +71,7 @@ This phase establishes the foundational baseline of the project, migrating from 
 * **Calibration Protocol:** The process was deployed across 3 sequential calibration batches ($50$ reviews each). After each batch, the annotation guidelines and codebooks were programmatically refined to resolve linguistic discrepancies and edge cases.
 
 <div align="center">
-  <img src="PASTE_IMAGE_1_3_URL_HERE" width="100%" alt="Double-Blind Annotation Workflow">
+  <img src="https://github.com/user-attachments/assets/fedd6c95-e021-4048-9980-5f890d8da5b5" width="100%" alt="Double-Blind Annotation Workflow">
 </div>
 
 ---
@@ -87,7 +87,7 @@ $$\kappa_w = 1 - \frac{\sum w_{ij} O_{ij}}{\sum w_{ij} E_{ij}}$$
 * **Outcome:** Upon completing the calibration iterations, the agreement indices confidently surpassed the academic quality thresholds, formalizing the final annotation manual and cementing the perfectly balanced 500-review Gold Standard.
 
 <div align="center">
-  <img src="PASTE_IMAGE_1_4_URL_HERE" width="100%" alt="Agreement Metrics Evaluation">
+  <img src="https://github.com/user-attachments/assets/71cda5a2-48cf-4045-ba70-2db205b36f4d" width="100%" alt="Agreement Metrics Evaluation">
 </div>
 
 ---
