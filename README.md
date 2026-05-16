@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/a77554bb-72b4-4d7b-b38a-c0d67f5b5d3d" width="100%" alt="TRIP_U Cover">
+  <img src="https://github.com/user-attachments/assets/0544f664-cd2f-4847-b4fa-16097bdd9f1c" width="100%" alt="TRIP_U Cover">
   
   # TRIP_U: Emotion-Based Personalized Travel Recommendation System
   
