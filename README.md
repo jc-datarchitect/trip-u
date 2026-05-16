@@ -363,6 +363,95 @@ This phase outlines the core architectural framework of the recommendation engin
 
 ---
 
+## ⚖️ Phase 7: Responsible AI, Advanced Behavioral Analytics & Geographic Inferences
 
+This final phase integrates production-grade ethical guardrails, custom affective monitoring coefficients, and localized macroeconomic data visualizations extracted from the system's runtime analytics.
+
+### 7.1 Ethical Guardrails & Responsible AI Postulates (Hard vs. Soft Filters)
+* **Algorithmic Accountability:** To ensure compliance with modern Responsible AI guidelines, a specialized multi-tier ethical validation layer was embedded directly into the downstream routing logic.
+* **The Filter Taxonomy:**
+  * **Hard Exclusion Filters:** Strict logical constraints preventing the engine from recommending a destination that matches the user's current geographic location ($Origin \neq Destination$).
+  * **Soft Informative Filters:** Non-paternalistic, friction-free advisory banners triggered under high-sensitivity configurations:
+    * *Persistent Sadness Alert:* Triggered when consecutive text analysis iterations indicate prolonged low-activation states.
+    * *LGBTQ+ Protection Inferences:* Informing users of localized legal limitations in non-inclusive destinations.
+    * *Accessibility Warning Vector:* Flagging destinations displaying prominent infrastructure barriers for users with documented mobility constraints.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3b86e3af-9a01-4a3c-8df2-b682eea723d6" width="100%" alt="Ethical Filters Framework">
+</div>
+
+---
+
+### 7.2 Individual Emotional Evolution (Custom Coefficients: CCE & CDE)
+* **Dynamic Time-Series Monitoring:** The platform evaluates user behavior across seasonal timelines, tracking the interplay between User Self-Perception and Textual Model Inferences.
+* **Proprietary Mathematical Framework:** Two distinct custom behavioral coefficients were engineered:
+  * **Emotional Consistency Coefficient ($CCE$):** Quantifies the variance and structural stability of the user's self-perceived baseline over time (represented by the explicit red timeline).
+  * **Emotional Dissonance Coefficient ($CDE$):** Mathematically computes the integrated area under the curve representing the absolute error or divergence between self-perceived states and the model's textual inference layer (represented by the shaded gray geometric boundaries).
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b6b93694-3d69-4164-8f10-fa745ed3783d" width="75%" alt="Individual Affective Timelines">
+</div>
+
+---
+
+### 7.3 Multi-Quadrant Affective Profile Mapping
+* **The Behavioral Matrix:** By crossing the continuous dimensions of the $CCE$ and $CDE$ indices, users are programmatically mapped into a specialized four-quadrant coordinate space.
+* **Typology Stratification:** This multi-criteria mapping splits user behavior into four core optimization targets, enabling the engine to adapt its core mathematical recommendation weights ($w_i$) based on the user's strategic quadrant profile.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b83aee49-8f60-4892-b666-66e752a9855f" width="75%" alt="MCDA Affective Matrix Mapping">
+</div>
+
+---
+
+### 7.4 Cohort Distribution & Predictive Friction Analysis
+* **Statistical Volume Analysis:** Evaluating the 25-user heterogeneous cohort reveals that **$56\%$ of users reside inside the Consistent-Sonant quadrant ("El usuario lúcido")**, confirming high system stability.
+* **Predictive Friction:** The remaining population highlights complex behavioral exceptions, isolating highly volatile or masked profiles ("El usuario volátil" / "El usuario enmascarado") that require specialized textual inference overrides due to high self-reporting bias.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/43b077f6-4454-4ed7-8ff7-b35d9d9532a4" width="75%" alt="Cohort Quadrant Distributions">
+</div>
+
+---
+
+### 7.5 Statistical Density Profiling (CCE vs. CDE Violin Plots)
+* **Kernel Density Distribution:** Violin plots crossing the full cohort distributions reveal a multi-modal distribution inside the $CCE$ boundary, showcasing a high concentration around the $0.65$ efficiency mark.
+* **Dissonance Control:** The $CDE$ distribution exhibits a highly constrained interquartile range ($IQR$), confirming that the model's textual inferences maintain a tight, controlled error envelope ($< 0.40$) across the vast majority of out-of-domain interactions.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/be6dc876-02ee-4a97-973a-2b57e028a3ab" width="75%" alt="Coefficient Distribution Densities">
+</div>
+
+---
+
+### 7.6 Macro-Seasonal Affective Heatmap Analysis
+* **Macro-Environmental Signals:** The system aggregates full transaction streams into seasonal heatmaps, comparing declared self-perception matrices against raw inferred textual trends.
+* **Key Insights:** While self-perceived metrics show relatively flat distributions throughout the year, the textual model successfully captures micro-trends, such as a prominent spike in high-activation anxiety metrics ($0.29$) during the spring window and low-arousal calm states ($0.27$) during the autumn/winter transitions.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c283519b-b3b9-4279-8d51-ce393c62e5cc" width="75%" alt="Seasonal Affective Heatmaps">
+</div>
+
+---
+
+### 7.7 Multi-Demographic Radar Trajectory Intersections
+* **Cross-Attribute Interactions:** Multi-axis radar visualizations map the geometric intersections between emotional states, behavioral traveler traits, financial budgets, and distinct age cohorts.
+* **Correlative Features:** The radar layers isolate high-value behavioral insights, mapping how low-budget brackets heavily intersect with high-arousal exploratory interest patterns, whereas older demographics or higher-budget profiles display tight alignment with low-activation, high-comfort destination targets.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4e58ea7b-0f46-4d1c-a3e2-0aa6c3757a2e" width="100%" alt="Demographic Radar Intersections">
+</div>
+
+---
+
+### 7.8 Global Routing Geo-Spatial Visualization
+* **The Final Routing Map:** The operational output of the global multi-criteria recommendation loops is mapped using spatial geolocated vectors, connecting user origin nodes (blue markers) to their optimal, customized travel destinations (red target nodes).
+* **Validation Confirmation:** The geographic paths validate the system's complex cross-criteria constraints, confirming that the engine successfully skips nearby sub-optimal choices to find international destinations that best align with the user's emotional and budget profile.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/45b9e3cb-ad6e-449e-bdd7-819177a6f5ca" width="100%" alt="Global Recommendation Routing Matrix">
+</div>
+
+---
 
 
