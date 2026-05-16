@@ -1,10 +1,12 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/0544f664-cd2f-4847-b4fa-16097bdd9f1c" width="100%" alt="TRIP_U Cover">
+
+  <h1>TRIP(U): Emotion-Based Personalized Travel Recommendation System</h1>
+
+  <p><i>"The variable is you, the journey is your destination"</i></p>
   
-  # TRIP(U): Emotion-Based Personalized Travel Recommendation System
-  
-  ### "The variable is you, the journey is your destination"
-  
+  <br>
+
   [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
   [![NLP](https://img.shields.io/badge/NLP-Natural%20Language%20Processing-blue)](https://en.wikipedia.org/wiki/Natural_language_processing)
   [![Plotly](https://img.shields.io/badge/Visualization-Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)](https://plotly.com/)
