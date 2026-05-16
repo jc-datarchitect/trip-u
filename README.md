@@ -1,4 +1,6 @@
-# TRIP_U by Javier Cristobal
+# TRIP_U 
+by Javier Cristobal
+
 <img width="910" height="454" alt="1-Portada" src="https://github.com/user-attachments/assets/0544f664-cd2f-4847-b4fa-16097bdd9f1c" />
 
 
