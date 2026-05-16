@@ -14,19 +14,32 @@
 
 ---
 
+## 🚀 Project Overview
 
-## Executive Overview
+**TRIP(U)** is an end-to-end intelligent recommendation engine that integrates Natural Language Processing (NLP) to introduce the emotional dimension into personalized travel planning. Built upon the core premise *"The variable is you, the journey is your destination"*, the system dynamically shifts and tailors travel destinations based on the user's specific psychological and emotional context rather than relying solely on static historical preferences.
+
+---
+
+## 🗺️ Methodology Roadmap: 8-Phase Architecture
+
+The project is structured into **8 sequential phases** that cover the entire data lifecycle—ranging from affective computing and custom corpus annotation to cross-domain model validation and multi-criteria fusion scoring:
+
+<div align="center">
+  <img src="PASTE_YOUR_PHASES_IMAGE_URL_HERE" width="85%" alt="TRIP_U 8-Phase Architecture Roadmap">
+</div>
+
+1. **Phase 1: Corpus Construction & Affective Computing** — Building a balanced emotional Gold Standard dataset.
+2. **Phase 2: Core NLP Preprocessing Pipeline** — Text normalization, syntactic analysis, and domain masking.
+3. **Phase 3: Supervised Modeling & Evaluation** — Feature vectorization and classifier benchmarking.
+4. **Phase 4: Synthetic OOD Context Generation** — Designing a third normal form (3NF) Out-of-Distribution environment.
+5. **Phase 5: Robustness & Cross-Domain Validation** — Testing model generalization capabilities outside the training domain.
+6. **Phase 6: Multi-Criteria Recommendation Engine** — Blending emotional scores, thematic interests, behavioral profiles, and economic constraints.
+7. **Phase 7: Ethical Guardrails & Advanced Analytics** — Implementing responsible AI mitigation filters and emotional dissonance tracking ($CCE$ / $CDE$).
+8. **Phase 8: Scalability Roadmap & Transformers** — Future-proofing the architecture via Large Language Models ($RoBERTuito$) and dynamic clustering.
+
+---
 
 
 
-
-
-
-
-
-* **EN:** **TRIP_U** is an end-to-end intelligent recommendation engine that integrates Natural Language Processing (NLP) to introduce the emotional dimension into personalized travel planning. Based on the premise *"The variable is you, the journey is your destination"*, the system dynamically adapts travel routes based on the user's psychological and emotional context.
-* **ES:** **TRIP_U** es un motor de recomendación inteligente end-to-end que integra Procesamiento de Lenguaje Natural (NLP) para añadir la dimensión emocional en la planificación de viajes personalizados. Partiendo de la premisa *"La variable eres tú, el viaje es tu destino"*, el sistema adapta dinámicamente las rutas según el contexto psicológico y anímico del usuario.
-
-> 🎓 **Academic Milestone:** Awarded a **9.13/10 (Sobresaliente)** by the Academic Tribunal. Master's Thesis (TFM) - Master in Big Data Architecture.
 
 ---
