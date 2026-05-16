@@ -225,7 +225,7 @@ This phase focuses on translating the normalized textual corpus into mathematica
   * **Uniform ROC Ensembles:** Highest and most uniform multi-class AUC metrics across all 5 emotional dimensions.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/37d81735-835d-4bd7-a8d3-6c81bf9e043c" width="100%" alt="Final Model Selection Criteria">
+  <img src="https://github.com/user-attachments/assets/37d81735-835d-4bd7-a8d3-6c81bf9e043c" width="80%" alt="Final Model Selection Criteria">
 </div>
 
 ---
@@ -454,4 +454,36 @@ This final phase integrates production-grade ethical guardrails, custom affectiv
 
 ---
 
+## 🚀 Phase 8: Future Works, Transformer Evolution & Ephemeral Architecture
 
+This final section outlines the technological roadmap and scalable system evolutions designed to migrate the current pipeline into a deep learning ecosystem and real-time social platform.
+
+### 8.1 Classifier Evolution (Transitioning to Transformers via RoBERTuito)
+* **The Semantic Bottleneck:** While the current production $BoW + NB$ classifier demonstrates exceptional statistical stability, classical n-gram configurations face structural limitations when parsing highly complex contextual dependencies, implicit irony, or nuanced slang.
+* **The Transformer Roadmap:** The immediate architectural upgrade consists of deploying a specialized Deep Learning pipeline utilizing **RoBERTuito** (a state-of-the-art, pre-trained BERT variant optimized specifically for informal Spanish and social media text streams). Executing a targeted fine-tuning protocol will capture deep contextual embeddings, maximizing classifier sensitivity and precision.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1765c04e-0c26-489c-94bb-101f9db395a3" width="100%" alt="Transformer Evolution Roadmap">
+</div>
+
+---
+
+### 8.2 Dynamic Emotional Segmentation & Ephemeral Spatial Matching
+* **Fluid Clustering Framework:** The system intends to transition from static categorical buckets to a dynamic, real-time clustering engine. Users will no longer occupy permanent behavioral groups; instead, they will shift fluidly across reversible clusters determined by their immediate, real-time affective state.
+* **The Ephemeral Social Layer:** This computational flexibility opens the door to **Ephemeral Matching**. The recommendation loop will programmatically connect distinct travelers who intersect across three identical vectors: *Space (Geographic location), Time (Temporal availability), and Emotion (Synchronized affective states)*, morphing TRIP(U) into an adaptive, high-response social network.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/09700ba6-7661-42dd-b4d2-25f911f02828" width="100%" alt="Dynamic Emotional Clustering & Matching">
+</div>
+
+---
+
+### 8.3 Prospective System Architecture Blueprint
+* **System Integration:** To support the transition toward deep learning inferences and live multi-criteria recommendations, the prospective system design maps an interconnected data lifecycle.
+* **Architectural Flow:** The framework establishes a unified flow integrating raw user text processing via fine-tuned Transformers, live synchronization with the normalized PostgreSQL RDBMS, and a scalable API layer. This ensures that weight updates and multi-criteria rankings function under low-latency constraints during real-world user interaction loops.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c2d8a03f-b787-4740-9c1c-d1915c2c074c" width="100%" alt="Prospective System Architecture Blueprint">
+</div>
+
+---
