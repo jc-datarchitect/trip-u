@@ -1,6 +1,21 @@
-# TRIP_U 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a77554bb-72b4-4d7b-b38a-c0d67f5b5d3d" width="100%" alt="TRIP_U Cover">
+  
+  # TRIP_U: Emotion-Based Personalized Travel Recommendation System
+  
+  ### "The variable is you, the journey is your destination"
+  
+  [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+  [![NLP](https://img.shields.io/badge/NLP-Natural%20Language%20Processing-blue)](https://en.wikipedia.org/wiki/Natural_language_processing)
+  [![Plotly](https://img.shields.io/badge/Visualization-Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)](https://plotly.com/)
+</div>
 
-<img width="910" height="454" alt="1-Portada" src="https://github.com/user-attachments/assets/0544f664-cd2f-4847-b4fa-16097bdd9f1c" />
+---
+<img width="447" height="435" alt="1-Portada" src="https://github.com/user-attachments/assets/a77554bb-72b4-4d7b-b38a-c0d67f5b5d3d" />
+
+## 🚀 Executive Overview
+...
+
 
 
 
