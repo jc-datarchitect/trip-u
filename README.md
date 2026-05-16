@@ -290,3 +290,79 @@ This phase presents the definitive validation stress-test of the selected $BoW +
 
 ---
 
+## Phase 6: Multi-Criteria Recommendation Engine & Algorithmic Fusion
+
+This phase outlines the core architectural framework of the recommendation engine, migrating from emotional intelligence to an operational, multi-criteria decision-making system.
+
+### 6.1 Multi-Criteria System Architecture Overview
+* **The Structural Blueprint:** The system is engineered around a multi-criteria decision analysis (MCDA) framework that integrates four independent, specialized pillars: *Emotion, Thematic Interests, Behavioral Traveler Profiles, and Financial Constraints*.
+* **Dynamic vs. Static Balance:** The **Emotional Score** acts as the core dynamic vector, capturing shifting, real-time context. The remaining three pillars provide structural stabilization, anchoring the engine to the user's permanent preferences and hard limitations.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4f39cb13-314c-45de-ae51-3db3d525097b" width="100%" alt="Multi-Criteria Recommendation System Architecture">
+</div>
+
+---
+
+### 6.2 Pillar 1: Dual Emotional Scoring Matrix
+* **Signal Cross-Validation:** To mitigate alignment anomalies and subjective biases, the Emotional Score fuses two independent signals:
+  1. **Self-Perceived Emotion:** Manually declared by the user via the frontend interface.
+  2. **Inferred Emotion:** Computationally extracted from the user's raw text using the production $BoW + NB$ classifier.
+* **Destination Mapping:** By mathematically crossing this joint input vector against the structured emotional matrix assigned to each target destination, the engine derives a highly resilient and validated emotional affinity score.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d1bab853-2bde-47db-a896-5e4a43974d06" width="100%" alt="Pillar 1: Emotional Score Signal Fusion">
+</div>
+
+---
+
+### 6.3 Pillar 2: Thematic Interest & Affinity Stabilization
+* **Semantic Overlap:** This component evaluates categorical affinity by calculating the overlap between the user's explicitly declared personal interests (e.g., trekking, gastronomy, architecture) and the thematic tags mapped to each destination.
+* **The Scoring Scale:** Based on the intersection density of identical attributes, a discrete score ranging from $0\text{ to }5$ is computed. This metric acts as a structural anchor, ensuring that the engine's outputs remain intrinsically relevant to the user's baseline lifestyle preferences.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7898922f-018d-43f4-bfd8-00da20f681ef" width="100%" alt="Pillar 2: Thematic Interest Affinity">
+</div>
+
+---
+
+### 6.4 Pillar 3: Behavioral Traveler Profile Mapping
+* **Behavioral Typology:** The system introduces an algorithmic behavioral tracking layer that programmatically classifies users into definitive traveler profiles (e.g., *Explorer, Relaxed, Socializer, Cultural*).
+* **Cross-Referencing Matrices:** Every travel destination within the relational database holds a predefined vector of suitability weights mapped against these exact behavioral typologies. The engine executes a matrix dot product between the user's inferred profile and the destination vectors to calculate behavioral alignment.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b58a822a-7a98-4218-be10-58768c449d63" width="100%" alt="Pillar 3: Behavioral Traveler Profiles">
+</div>
+
+---
+
+### 6.5 Pillar 4: Economic Constraints & Compound Cost Index
+* **Financial Indexing:** The economic filter computes a customized **Compound Cost Index ($CCI$)** for every potential travel route. This index dynamically balances and weights two high-impact financial variables:
+  
+  $$CCI = w_1 \cdot \text{Cost of Living} + w_2 \cdot \text{Transport Costs}$$
+  
+* **Tiered Bracket Evaluation:** The resulting compound index is mapped against the user's strict financial threshold bracket, generating a localized score that guarantees recommendations are perfectly calibrated within realistic budget parameters.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d3a07dea-9d45-4543-8a17-8b53438c4ae8" width="100%" alt="Pillar 4: Economic Constraints and Compound Cost">
+</div>
+
+---
+
+### 6.6 Algorithmic Fusion & Personalized Ranking Integration
+* **Normalization & Weighting:** To merge these highly heterogeneous scales into a singular, unified scoring layer, each pillar undergoes a normalization pipeline. Weights are allocated strategically, establishing the **Emotional Vector as the algorithmic heart with a dominant $45\%$ weight distribution**.
+* **The Scoring Engine:** The ultimate global score ($GS$) for each individual destination ($d$) and user ($u$) is calculated using a linear combination framework:
+
+  $$GS(d,u) = 0.45 \cdot S_{\text{Emotion}} + w_i \cdot S_{\text{Interests}} + w_j \cdot S_{\text{Behavior}} + w_k \cdot S_{\text{Economic}}$$
+
+* **Final Rank Generation:** The recommendation matrix is sorted descendingly per user, isolating the destination that achieves the highest global score as the absolute personalized travel choice.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dc99dc9e-53d7-4561-857e-72716855c523" width="100%" alt="Algorithmic Weight Fusion and Ranking Integration">
+</div>
+
+---
+
+
+
+
