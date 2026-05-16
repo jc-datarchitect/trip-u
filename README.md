@@ -225,7 +225,7 @@ This phase focuses on translating the normalized textual corpus into mathematica
   * **Uniform ROC Ensembles:** Highest and most uniform multi-class AUC metrics across all 5 emotional dimensions.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/37d81735-835d-4bd7-a8d3-6c81bf9e043c" width="100%" alt="Final Model Selection Criteria">
+  <img src="https://github.com/user-attachments/assets/37d81735-835d-4bd7-a8d3-6c81bf9e043c" width="75%" alt="Final Model Selection Criteria">
 </div>
 
 ---
@@ -285,7 +285,7 @@ This phase presents the definitive validation stress-test of the selected $BoW +
 * **Proximity Concentrated Variance:** Classification errors do not disperse randomly across the matrix; instead, they cluster tightly inside adjacent emotional boundaries within the adaptive Russell affect matrix. This validation ensures that the output layer provides a reliable, logical foundation for the multi-criteria recommendation loops.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/143b1a32-aef4-433d-836d-544b943ab3e6" width="100%" alt="Out-of-Domain Multi-Class Confusion Matrix">
+  <img src="https://github.com/user-attachments/assets/143b1a32-aef4-433d-836d-544b943ab3e6" width="75%" alt="Out-of-Domain Multi-Class Confusion Matrix">
 </div>
 
 ---
