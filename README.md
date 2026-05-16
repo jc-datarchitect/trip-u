@@ -230,5 +230,30 @@ This phase focuses on translating the normalized textual corpus into mathematica
 
 ---
 
+## Phase 4: Synthetic OOD Context & Relational Database Architecture
+
+This phase details the design and engineering of an Out-of-Domain (OOD) testing environment, validating the model's generalization boundaries while establishing a structured data pipeline.
+
+### 4.1 Out-of-Domain (OOD) Rationalization & Synthetic User Cohort
+* **The Domain Shift Challenge:** While the emotional classification backbone was trained on film reviews, the production recommendation engine is designed to parse raw social media streams. To guarantee robust **domain generalization**, evaluating the model outside its training domain was computationally mandatory.
+* **The Privacy & Linking Bottleneck:** Real-world social media datasets often enforce anonymity or lack linked user behavioral profiles (budgets, demographic backgrounds, static interests). 
+* **The Solution:** A controlled, high-fidelity synthetic OOD corpus was architected. It features **25 heterogeneous user personas** with diverse nationalities, age brackets, travel budgets, and thematic interests. Each persona generates distinct, unstructured text streams within a realistic environment, serving as the stress-test baseline for the recommendation engine.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dcde64a8-5f66-4767-b6fd-07ff31c4667d" width="100%" alt="OOD Corpus Justification and Synthetic Cohort">
+</div>
+
 ---
+
+### 4.2 Relational Schema & Third Normal Form (3NF) Database Normalization
+* **Data Architecture:** To scale the multi-criteria recommendation engine, the synthetic OOD ecosystem was structured into a fully normalized **Relational Database Management System (RDBMS)**.
+* **Normalization Protocol:** The schema was meticulously optimized up to the **Third Normal Form (3NF)** to ensure transactional integrity, eliminate data redundancy, and prevent anomalies.
+* **Entity Relationship Layout:** Isolated relational entities—including *Users, Travel Destinations, Personal Interests, and Transport/Living Costs*—were mapped using strict Primary Key (PK) and Foreign Key (FK) constraints, establishing the data foundation for downstream recommendation filtering.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5c0cb87e-4e75-461f-822f-c3c01a260f7c" width="100%" alt="3NF Database Normalization and Schema Architecture">
+</div>
+
 ---
+
+
