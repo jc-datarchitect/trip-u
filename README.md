@@ -389,7 +389,7 @@ This final phase integrates production-grade ethical guardrails, custom affectiv
   * **Emotional Dissonance Coefficient ($CDE$):** Mathematically computes the integrated area under the curve representing the absolute error or divergence between self-perceived states and the model's textual inference layer (represented by the shaded gray geometric boundaries).
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/b6b93694-3d69-4164-8f10-fa745ed3783d" width="75%" alt="Individual Affective Timelines">
+  <img src="https://github.com/user-attachments/assets/b6b93694-3d69-4164-8f10-fa745ed3783d" width="100%" alt="Individual Affective Timelines">
 </div>
 
 ---
@@ -399,7 +399,7 @@ This final phase integrates production-grade ethical guardrails, custom affectiv
 * **Typology Stratification:** This multi-criteria mapping splits user behavior into four core optimization targets, enabling the engine to adapt its core mathematical recommendation weights ($w_i$) based on the user's strategic quadrant profile.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/b83aee49-8f60-4892-b666-66e752a9855f" width="75%" alt="MCDA Affective Matrix Mapping">
+  <img src="https://github.com/user-attachments/assets/b83aee49-8f60-4892-b666-66e752a9855f" width="100%" alt="MCDA Affective Matrix Mapping">
 </div>
 
 ---
@@ -409,7 +409,7 @@ This final phase integrates production-grade ethical guardrails, custom affectiv
 * **Predictive Friction:** The remaining population highlights complex behavioral exceptions, isolating highly volatile or masked profiles ("El usuario volátil" / "El usuario enmascarado") that require specialized textual inference overrides due to high self-reporting bias.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/43b077f6-4454-4ed7-8ff7-b35d9d9532a4" width="75%" alt="Cohort Quadrant Distributions">
+  <img src="https://github.com/user-attachments/assets/43b077f6-4454-4ed7-8ff7-b35d9d9532a4" width="100%" alt="Cohort Quadrant Distributions">
 </div>
 
 ---
@@ -419,7 +419,7 @@ This final phase integrates production-grade ethical guardrails, custom affectiv
 * **Dissonance Control:** The $CDE$ distribution exhibits a highly constrained interquartile range ($IQR$), confirming that the model's textual inferences maintain a tight, controlled error envelope ($< 0.40$) across the vast majority of out-of-domain interactions.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/be6dc876-02ee-4a97-973a-2b57e028a3ab" width="75%" alt="Coefficient Distribution Densities">
+  <img src="https://github.com/user-attachments/assets/be6dc876-02ee-4a97-973a-2b57e028a3ab" width="100%" alt="Coefficient Distribution Densities">
 </div>
 
 ---
@@ -429,7 +429,7 @@ This final phase integrates production-grade ethical guardrails, custom affectiv
 * **Key Insights:** While self-perceived metrics show relatively flat distributions throughout the year, the textual model successfully captures micro-trends, such as a prominent spike in high-activation anxiety metrics ($0.29$) during the spring window and low-arousal calm states ($0.27$) during the autumn/winter transitions.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/c283519b-b3b9-4279-8d51-ce393c62e5cc" width="75%" alt="Seasonal Affective Heatmaps">
+  <img src="https://github.com/user-attachments/assets/c283519b-b3b9-4279-8d51-ce393c62e5cc" width="100%" alt="Seasonal Affective Heatmaps">
 </div>
 
 ---
