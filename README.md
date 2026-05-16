@@ -11,7 +11,7 @@
 </div>
 
 ---
-<img width="447" height="435" alt="1-Portada" src="https://github.com/user-attachments/assets/a77554bb-72b4-4d7b-b38a-c0d67f5b5d3d" />
+
 
 ## 🚀 Executive Overview
 ...
