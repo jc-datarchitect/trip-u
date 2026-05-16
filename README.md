@@ -147,5 +147,88 @@ Once the Gold Standard corpus was consolidated, a specialized text normalization
 
 ---
 
+## 🤖 Phase 3: Supervised Modeling & Evaluation Benchmarking
 
+This phase focuses on translating the normalized textual corpus into mathematical features to train, benchmark, and contrast supervised classification algorithms, isolating the optimal predictive engine for emotional multi-class detection.
+
+### 3.1 Feature Extraction & Vectorization Strategy
+* **The Approaches:** Two classical text vectorization paradigms were systematically evaluated: **Bag of Words (BoW / CountVectorizer)** and **TF-IDF (Term Frequency-Inverse Document Frequency)**.
+* **Controlled Tuning:** To prevent feature explosion and ensure structural parity, both pipelines were constrained to a maximum of $2,500$ features, an $ngram\_range=(1, 2)$ (capturing unigrams and bigrams), and a $min\_df=2$ threshold to filter out rare anomalies.
+* **Sparsity Mapping:** The final document-term matrices yielded a high sparsity profile ($99.0\%$), a standard mathematical footprint in natural language modeling that requires robust linear or probabilistic separating boundaries.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0e936495-4a41-4959-9a59-5c399b32fa36" width="100%" alt="Feature Vectorization Strategy">
+</div>
+
+---
+
+### 3.2 Proposed Full-Factorial Architecture Layout
+* **Experimental Matrix:** To isolate the most reliable classification engine, both vectorization strategies were crossed with two distinct supervised learning algorithm families: **Multinomial Naive Bayes (NB)** (probabilistic baseline) and **Linear Support Vector Classifier (Linear SVC / SVM)** (geometric margin optimization).
+* **The Four Evaluated Configurations:**
+  1. $BoW + Multinomial\ Naive\ Bayes\ (NB)$
+  2. $TF\text{-}IDF + Multinomial\ Naive\ Bayes\ (NB)$
+  3. $BoW + Linear\ SVC\ (SVM)$
+  4. $TF\text{-}IDF + Linear\ SVC\ (SVM)$
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1815a1ab-3c73-44f1-9633-d0339fba6f85" width="100%" alt="Proposed Experimental Pipelines">
+</div>
+
+---
+
+### 3.3 Macro Performance Metrics Comparison
+* **Overall Evaluation:** All four candidate models achieved highly consistent macro performance scores across precision, recall, and F1 metrics, fluctuating around the $0.77$ to $0.83$ range. This performance level statistically confirms the semantic cleanlines and balanced nature of the initial Gold Standard corpus.
+* **Top Performers:** The probabilistic baseline ($BoW + NB$) and the geometric margin classifier ($TF\text{-}IDF + SVM$) emerged as the frontrunners, showing near parity at a macro evaluation level. This proximity required a deeper dive into class-specific performance.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/be5e1035-0480-4267-9f91-49ef4a566ef4" width="100%" alt="Macro Performance Comparison">
+</div>
+
+---
+
+### 3.4 Multi-Class ROC Curves & Area Under the Curve (AUC) Analysis
+* **Discriminative Capacity:** Looking at the Receiver Operating Characteristic (ROC) curves, the true positive rate versus false positive rate was mapped across all five target categories (*Tristeza, Ansiedad, Calma, Curiosidad, Alegría*).
+* **Key Observations:** The $BoW + NB$ setup achieved exceptional stability, maintaining uniform AUC scores between $0.95$ and $0.97$ for all emotions. Conversely, the SVM alternatives exposed a performance degradation in high-activation positive states, dropping to an AUC of $0.84$ for *Alegría*.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/23013a67-77bf-4cbf-8ff3-357eaefd2ebd" width="100%" alt="Multi-Class ROC Curves Comparison">
+</div>
+
+---
+
+### 3.5 Precision-Recall (P-R) Curves Analysis
+* **Imbalance & Class Focus:** Because macro metrics can sometimes hide boundary weaknesses, class-specific Precision-Recall curves were computed to inspect the True Positive Rate against the Positive Predictive Value across changing thresholds.
+* **Granular Reliability:** The Average Precision (AP) scores validate that $BoW + NB$ handles subtle emotional transitions with superior accuracy. It maintains remarkably tight envelopes for complex classes like *Anxiety* ($AP = 0.87$) and *Curiosity* ($AP = 0.94$), outperforming the SVM pipelines which showed broader precision drops.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3fb839bf-45d7-420c-a23d-380fe0f9e0b2" width="100%" alt="Precision-Recall Curves Comparison">
+</div>
+
+---
+
+### 3.6 Multi-Class Confusion Matrix Diagnosis
+* **Error Distribution:** The multi-class confusion matrices display a highly prominent, well-defined main diagonal across all candidate setups, indicating highly accurate categorical assignments.
+* **Proximity Boundaries:** Most misclassifications are strictly confined to adjacent coordinates within the underlying psychological emotional space. The $BoW + NB$ pipeline minimized severe cross-spatial contradictions (e.g., confusing low-activation negative states with high-activation positive states), maintaining a clean error pattern.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9a645aff-a684-411d-a54e-81db9531ba60" width="100%" alt="Confusion Matrices Benchmarking">
+</div>
+
+---
+
+### 3.7 Definitive Production Architecture Selection
+* **The Selection:** **Bag of Words + Multinomial Naive Bayes (BoW + NB)** was officially designated as the production classifier engine.
+* **Justification Portfolio:** While macro metrics showed competitive numbers across the board, the $BoW + NB$ model was selected based on four core technical criteria:
+  * **Solid Macro Metrics:** Highly reliable macro precision, recall, and F1 foundations.
+  * **P-R Curve Consistency:** Superior Average Precision balances, even when handling complex, overlapping emotional boundaries.
+  * **Optimized Error Envelopes:** Cleaner confusion matrix diagonals with minimal cross-category extreme errors.
+  * **Uniform ROC Ensembles:** Highest and most uniform multi-class AUC metrics across all 5 emotional dimensions.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/37d81735-835d-4bd7-a8d3-6c81bf9e043c" width="100%" alt="Final Model Selection Criteria">
+</div>
+
+---
+
+---
 ---
