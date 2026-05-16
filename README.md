@@ -20,7 +20,7 @@
 
 ---
 
-## 🗺️ Methodology Roadmap: 8-Phase Architecture
+## Methodology Roadmap: 8-Phase Architecture
 
 The project is structured into **8 sequential phases** that cover the entire data lifecycle—ranging from affective computing and custom corpus annotation to cross-domain model validation and multi-criteria fusion scoring:
 
@@ -39,7 +39,7 @@ The project is structured into **8 sequential phases** that cover the entire dat
 
 ---
 
-## 📊 Phase 1: Corpus Construction & Affective Computing
+## Phase 1: Corpus Construction & Affective Computing
 
 This phase establishes the foundational baseline of the project, migrating from raw text availability to a high-quality, non-biased emotional dataset.
 
@@ -92,7 +92,7 @@ $$\kappa_w = 1 - \frac{\sum w_{ij} O_{ij}}{\sum w_{ij} E_{ij}}$$
 
 ---
 
-## 🧪 Phase 2: Core NLP Preprocessing Pipeline
+## Phase 2: Core NLP Preprocessing Pipeline
 
 Once the Gold Standard corpus was consolidated, a specialized text normalization and lexical analysis pipeline was deployed. The main engineering challenge was stripping domain-specific noise while strictly preserving the underlying affective and emotional signals.
 
