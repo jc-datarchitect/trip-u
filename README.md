@@ -256,4 +256,37 @@ This phase details the design and engineering of an Out-of-Domain (OOD) testing 
 
 ---
 
+## Phase 5: Robustness & Cross-Domain Validation (ID vs. OOD)
+
+This phase presents the definitive validation stress-test of the selected $BoW + NB$ production model, contrasting its performance between the controlled In-Domain (ID) cinema setting and the novel Out-of-Domain (OOD) unstructured social context.
+
+### 5.1 In-Domain (ID) vs. Out-of-Domain (OOD) Performance Degradation
+* **The Domain Shift Expected Drop:** Subjecting the pipeline to the synthetic OOD corpus triggered an expected performance compression when contrasted against the near-perfect metrics achieved during movie review cross-validation.
+* **The Baseline Victory:** Despite the domain shift, the macro evaluation metrics remain substantially and confidently above the **$20\%$ random baseline probability** dictated by the 5-class classification framework. This mathematical margin confirms that the entity masking protocol successfully forced the architecture to learn transferable, domain-independent affective syntax structures.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dc4edbdf-565e-497f-bfb7-f625db3bf0e2" width="100%" alt="In-Domain vs Out-of-Domain General Comparison">
+</div>
+
+---
+
+### 5.2 Out-of-Domain ROC and Precision-Recall Curve Inferences
+* **ROC AUC Boundaries:** Looking closer at the OOD validation graphs, the model exhibits high structural resilience. The Receiver Operating Characteristic (ROC) plots reveal stable, solid classification boundaries across all vectors, yielding competitive Area Under the Curve (AUC) metrics ranging from $0.82$ up to $0.89$. 
+* **Precision-Recall & Class Friction:** The class-specific Precision-Recall curves expose how the model behaves under non-cinematographic constraints. High-activation positive states like *Alegría* represent the highest classification friction ($AUC = 0.82$ / $AP = 0.59$), while abstract or high-arousal states like *Curiosidad* ($AUC = 0.89$) and *Ansiedad* ($AUC = 0.87$) retain high mathematical focus.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8c73cced-7c8c-42ef-8aca-ca0f986a1897" width="100%" alt="Out-of-Domain ROC and Precision-Recall Curves Validation">
+</div>
+
+---
+
+### 5.3 Out-of-Domain Multi-Class Confusion Matrix Mapping
+* **Diagonal Dominurally Maintained:** The OOD multi-class confusion matrix solidifies the structural viability of the machine learning classifier. The primary diagonal confidently retains its dominant density distribution under stress.
+* **Proximity Concentrated Variance:** Classification errors do not disperse randomly across the matrix; instead, they cluster tightly inside adjacent emotional boundaries within the adaptive Russell affect matrix. This validation ensures that the output layer provides a reliable, logical foundation for the multi-criteria recommendation loops.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/143b1a32-aef4-433d-836d-544b943ab3e6" width="100%" alt="Out-of-Domain Multi-Class Confusion Matrix">
+</div>
+
+---
 
