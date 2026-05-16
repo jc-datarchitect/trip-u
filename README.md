@@ -511,5 +511,5 @@ Ultimately, **TRIP(U)** lays down the architectural foundations for next-generat
 ---
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/3d05ad9d-84d4-479e-8019-4ae1b258cf43" width="100%" alt="TRIP_U Contact & Connect">
+  <img src="https://github.com/user-attachments/assets/86465115-5ab8-4764-b936-295335eb7789" width="100%" alt="TRIP_U Contact & Connect">
 </div>
