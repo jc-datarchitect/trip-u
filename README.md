@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/0544f664-cd2f-4847-b4fa-16097bdd9f1c" width="100%" alt="TRIP_U Cover">
   
-  # TRIP_U: Emotion-Based Personalized Travel Recommendation System
+  # TRIP(U): Emotion-Based Personalized Travel Recommendation System
   
   ### "The variable is you, the journey is your destination"
   
