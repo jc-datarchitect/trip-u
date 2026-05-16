@@ -147,7 +147,7 @@ Once the Gold Standard corpus was consolidated, a specialized text normalization
 
 ---
 
-## 🤖 Phase 3: Supervised Modeling & Evaluation Benchmarking
+## Phase 3: Supervised Modeling & Evaluation Benchmarking
 
 This phase focuses on translating the normalized textual corpus into mathematical features to train, benchmark, and contrast supervised classification algorithms, isolating the optimal predictive engine for emotional multi-class detection.
 
