@@ -171,7 +171,7 @@ This phase focuses on translating the normalized textual corpus into mathematica
   4. $TF\text{-}IDF + Linear\ SVC\ (SVM)$
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/1815a1ab-3c73-44f1-9633-d0339fba6f85" width="100%" alt="Proposed Experimental Pipelines">
+  <img src="https://github.com/user-attachments/assets/1815a1ab-3c73-44f1-9633-d0339fba6f85" width="70%" alt="Proposed Experimental Pipelines">
 </div>
 
 ---
@@ -225,7 +225,7 @@ This phase focuses on translating the normalized textual corpus into mathematica
   * **Uniform ROC Ensembles:** Highest and most uniform multi-class AUC metrics across all 5 emotional dimensions.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/37d81735-835d-4bd7-a8d3-6c81bf9e043c" width="50%" alt="Final Model Selection Criteria">
+  <img src="https://github.com/user-attachments/assets/37d81735-835d-4bd7-a8d3-6c81bf9e043c" width="100%" alt="Final Model Selection Criteria">
 </div>
 
 ---
