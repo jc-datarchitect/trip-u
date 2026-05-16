@@ -507,3 +507,9 @@ Ultimately, **TRIP(U)** lays down the architectural foundations for next-generat
 <div align="center">
   <h3><i>"The variable is you, the journey is your destination."</i></h3>
 </div>
+
+---
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3d05ad9d-84d4-479e-8019-4ae1b258cf43" width="100%" alt="TRIP_U Contact & Connect">
+</div>
