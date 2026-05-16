@@ -15,16 +15,14 @@
 ---
 
 
-## 🚀 Executive Overview
-...
+## Executive Overview
 
 
 
 
 
----
 
-## 🚀 Executive Overview / Resumen Ejecutivo
+
 
 * **EN:** **TRIP_U** is an end-to-end intelligent recommendation engine that integrates Natural Language Processing (NLP) to introduce the emotional dimension into personalized travel planning. Based on the premise *"The variable is you, the journey is your destination"*, the system dynamically adapts travel routes based on the user's psychological and emotional context.
 * **ES:** **TRIP_U** es un motor de recomendación inteligente end-to-end que integra Procesamiento de Lenguaje Natural (NLP) para añadir la dimensión emocional en la planificación de viajes personalizados. Partiendo de la premisa *"La variable eres tú, el viaje es tu destino"*, el sistema adapta dinámicamente las rutas según el contexto psicológico y anímico del usuario.
