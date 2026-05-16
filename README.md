@@ -20,14 +20,12 @@
 
 ---
 
-<img width="1428" height="364" alt="2-Fases" src="https://github.com/user-attachments/assets/e76151bb-4d2a-47b4-8845-c9ac97a74cea" />
-
 ## 🗺️ Methodology Roadmap: 8-Phase Architecture
 
 The project is structured into **8 sequential phases** that cover the entire data lifecycle—ranging from affective computing and custom corpus annotation to cross-domain model validation and multi-criteria fusion scoring:
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/e76151bb-4d2a-47b4-8845-c9ac97a74cea" width="85%" alt="TRIP_U 8-Phase Architecture Roadmap">
+  <img src="https://github.com/user-attachments/assets/e76151bb-4d2a-47b4-8845-c9ac97a74cea" width="100%" alt="TRIP_U 8-Phase Architecture Roadmap">
 </div>
 
 1. **Phase 1: Corpus Construction & Affective Computing** — Building a balanced emotional Gold Standard dataset.
